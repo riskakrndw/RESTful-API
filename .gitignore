@@ -13,5 +13,5 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-Part-3-code-structuring/.env
-Part-4-middleware/.env
+/Part-3-code-structuring/.env
+/Part-4-middleware/.env

@@ -1,0 +1,160 @@
+{
+	"id": "b1495e4f-ecf2-2253-ff29-e7cdefaacc7d",
+	"name": "sepulsa",
+	"description": "",
+	"order": [
+		"76853aef-0f7e-a095-63e2-94a0eb30c1bb",
+		"8a841f30-a868-2ee8-c2da-eda09688de8d",
+		"e13a4c62-e554-094e-f51d-c5fa907a25f2",
+		"ea794e02-ca16-2c45-37a7-1180219676d0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1626338272795,
+	"owner": "4079131",
+	"public": false,
+	"requests": [
+		{
+			"id": "76853aef-0f7e-a095-63e2-94a0eb30c1bb",
+			"headers": "",
+			"headerData": [],
+			"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/user/{4}",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b1495e4f-ecf2-2253-ff29-e7cdefaacc7d",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get User",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1626338375605,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8a841f30-a868-2ee8-c2da-eda09688de8d",
+			"headers": "book_id: 12\nuser_id: 2\n",
+			"headerData": [
+				{
+					"key": "book_id",
+					"value": "12",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "2",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/rent",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b1495e4f-ecf2-2253-ff29-e7cdefaacc7d",
+			"data": null,
+			"dataMode": "params",
+			"name": "Rent A Book",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1626338558940,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e13a4c62-e554-094e-f51d-c5fa907a25f2",
+			"headers": "id: 12\ntitle: \"Judul Baru\"\nisbn: \"2 373778282\"\nwriter: \"Writer A\"\n",
+			"headerData": [
+				{
+					"key": "id",
+					"value": "12",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "\"Judul Baru\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "isbn",
+					"value": "\"2 373778282\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "writer",
+					"value": "\"Writer A\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/{3}",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "b1495e4f-ecf2-2253-ff29-e7cdefaacc7d",
+			"data": null,
+			"dataMode": "params",
+			"name": "Update Book",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1626338681516,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ea794e02-ca16-2c45-37a7-1180219676d0",
+			"headers": "",
+			"headerData": [],
+			"url": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/user/{6}",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "b1495e4f-ecf2-2253-ff29-e7cdefaacc7d",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete A User",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1626338719555,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

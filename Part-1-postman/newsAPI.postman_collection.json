@@ -1,0 +1,221 @@
+{
+	"id": "5e8bc58a-0ccf-3b10-70b4-24784c670fae",
+	"name": "newsAPI",
+	"description": "",
+	"order": [
+		"a320481b-70ac-de7d-8906-a744690e3551",
+		"2dd06807-d663-26ca-4233-0d883d78e528",
+		"542e464b-5c69-09da-4cef-b829251d9f62",
+		"66bd193a-2ece-9222-5b07-3de53b32f357",
+		"597493f9-a0d6-b669-f8f3-2a1254de14b5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1626337255383,
+	"owner": "4079131",
+	"public": false,
+	"requests": [
+		{
+			"id": "2dd06807-d663-26ca-4233-0d883d78e528",
+			"headers": "",
+			"headerData": [],
+			"url": "https://newsapi.org/v2/everything?q=covid&apiKey=2919d05feb12423e85c1262240a3116a",
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "covid",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "apiKey",
+					"value": "2919d05feb12423e85c1262240a3116a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5e8bc58a-0ccf-3b10-70b4-24784c670fae",
+			"data": null,
+			"dataMode": "params",
+			"name": "All articles about Covid",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1626337526032,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "542e464b-5c69-09da-4cef-b829251d9f62",
+			"headers": "",
+			"headerData": [],
+			"url": "https://newsapi.org/v2/everything?domains=bbc.com&language=en&apiKey=2919d05feb12423e85c1262240a3116a",
+			"queryParams": [
+				{
+					"key": "domains",
+					"value": "bbc.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "language",
+					"value": "en",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "apiKey",
+					"value": "2919d05feb12423e85c1262240a3116a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5e8bc58a-0ccf-3b10-70b4-24784c670fae",
+			"data": null,
+			"dataMode": "params",
+			"name": "All Articles From BBC News",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1626337722522,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "597493f9-a0d6-b669-f8f3-2a1254de14b5",
+			"headers": "",
+			"headerData": [],
+			"url": "https://newsapi.org/v2/top-headlines/sources?country=de&apiKey=2919d05feb12423e85c1262240a3116a",
+			"queryParams": [
+				{
+					"key": "country",
+					"value": "de",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "apiKey",
+					"value": "2919d05feb12423e85c1262240a3116a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5e8bc58a-0ccf-3b10-70b4-24784c670fae",
+			"data": null,
+			"dataMode": "params",
+			"name": "Articles German",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1626338233834,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "66bd193a-2ece-9222-5b07-3de53b32f357",
+			"headers": "",
+			"headerData": [],
+			"url": "https://newsapi.org/v2/top-headlines/sources?category=science&apiKey=2919d05feb12423e85c1262240a3116a",
+			"queryParams": [
+				{
+					"key": "category",
+					"value": "science",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "apiKey",
+					"value": "2919d05feb12423e85c1262240a3116a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1626338138466,
+			"name": "Articles About Science",
+			"description": "",
+			"collectionId": "5e8bc58a-0ccf-3b10-70b4-24784c670fae",
+			"responses": []
+		},
+		{
+			"id": "a320481b-70ac-de7d-8906-a744690e3551",
+			"headers": "",
+			"headerData": [],
+			"url": "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=2919d05feb12423e85c1262240a3116a",
+			"queryParams": [
+				{
+					"key": "country",
+					"value": "us",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "category",
+					"value": "technology",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "apiKey",
+					"value": "2919d05feb12423e85c1262240a3116a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5e8bc58a-0ccf-3b10-70b4-24784c670fae",
+			"data": null,
+			"dataMode": "params",
+			"name": "News Tech US",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1626337319187,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
